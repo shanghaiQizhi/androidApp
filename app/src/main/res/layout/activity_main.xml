@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.shizhantouzi.MainActivity">
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="210px"
+        android:layout_marginBottom="300px">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_ClearHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:background="@drawable/btn_clearhistory"
+        android:enabled="true"
+        android:minEms="6"
+        android:textColor="@color/colorBlue"
+        android:text="清空历史"
+        android:textSize="12sp"
+        android:clickable="true"
+        android:onClick="onClick_Event_OnActivity"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center" />
+
+    <Button
+        android:text="喊　单"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:drawableTop="@drawable/selector_handan"
+        android:background="#00000000"
+        android:textColor="@color/selector_information_text"
+        android:onClick="onClick_Event_OnActivity"
+        android:id="@+id/btn_handan"
+        android:textSize="12sp"
+        android:drawablePadding="3sp" />
+
+    <Button
+        android:text="个　人"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginBottom="5dp"
+        android:drawableTop="@drawable/selector_information"
+        android:background="#00000000"
+        android:textColor="@color/selector_information_text"
+        android:onClick="onClick_Event_OnActivity"
+        android:id="@+id/btn_information"
+        android:textSize="12sp"
+        android:drawablePadding="3sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="说　明"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="5dp"
+        android:drawableTop="@drawable/selector_about"
+        android:background="#00000000"
+        android:textColor="@color/selector_information_text"
+        android:onClick="onClick_Event_OnActivity"
+        android:id="@+id/btn_about"
+        android:textSize="12sp"
+        android:drawablePadding="3sp" />
+
+    <Button
+        android:text="设　置"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginBottom="5dp"
+        android:drawableTop="@drawable/selector_setup"
+        android:background="#00000000"
+        android:textColor="@color/selector_information_text"
+        android:onClick="onClick_Event_OnActivity"
+        android:id="@+id/btn_setup"
+        android:textSize="12sp"
+        android:drawablePadding="3sp" />
+
+    <Button
+        android:text="分　析"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="310dp"
+        android:layout_marginBottom="5dp"
+        android:drawableTop="@drawable/selector_analysis"
+        android:background="#00000000"
+        android:textColor="@color/selector_information_text"
+        android:onClick="onClick_Event_OnActivity"
+        android:id="@+id/btn_analysis"
+        android:textSize="12sp"
+        android:drawablePadding="3sp" />
+
+    <Button
+        android:text="直播室"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="385dp"
+        android:layout_marginBottom="5dp"
+        android:drawableTop="@drawable/selector_video"
+        android:background="#00000000"
+        android:textColor="@color/selector_information_text"
+        android:onClick="onClick_Event_OnActivity"
+        android:id="@+id/btn_video"
+        android:textSize="12sp"
+        android:drawablePadding="3sp" />
+
+    <Button
+        android:text="日　志"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="460dp"
+        android:layout_marginBottom="5dp"
+        android:drawableTop="@drawable/selector_logs"
+        android:background="#00000000"
+        android:textColor="@color/selector_information_text"
+        android:onClick="onClick_Event_OnActivity"
+        android:id="@+id/btn_logs"
+        android:textSize="12sp"
+        android:drawablePadding="3sp" />
+
+    <Button
+        android:text="更　多"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="535dp"
+        android:layout_marginBottom="5dp"
+        android:drawableTop="@drawable/selector_more"
+        android:background="#00000000"
+        android:textColor="@color/selector_information_text"
+        android:onClick="onClick_Event_OnActivity"
+        android:id="@+id/btn_more"
+        android:textSize="12sp"
+        android:drawablePadding="3sp" />
+</RelativeLayout>

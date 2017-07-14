@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:paddingBottom="4dip"
+    android:paddingLeft="4dip"
+    android:paddingRight="4dip"
+    android:paddingTop="4dip" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/NICKNAMECONTENT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView01"
+                android:layout_marginLeft="0dp"
+                android:textColor="#111111"
+                android:singleLine="false"
+                android:textSize="14dip" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

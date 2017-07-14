@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.shizhantouzi.activity.LoginInfoActivity"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#335E9B"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/selector_close"
+            android:background="#00000000"
+            android:onClick="onClick_Event_OnActivity"
+            android:id="@+id/btn_close"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="2dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:text="标题"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/tv_title"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="姓名"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/tv_truename_title"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="###"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/tv_truename"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="昵称"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/tv_nickname_title"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="###"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/tv_nickname"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="手机"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="130dp"
+        android:id="@+id/tv_mobile_title"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="###"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="130dp"
+        android:id="@+id/tv_mobile"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="邮箱"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="130dp"
+        android:id="@+id/tv_email_title"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="###"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="130dp"
+        android:id="@+id/tv_email"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="身份证"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/tv_idcard_title"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="###"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/tv_idcard"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="我的交易所"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/tv_jiaoyisuo_title"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="###"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/tv_jiaoyisuo"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="我的操盘手"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="190dp"
+        android:id="@+id/tv_caopanshou_title"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:text="###"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="190dp"
+        android:id="@+id/tv_caopanshou"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorBlue" />
+
+</RelativeLayout>

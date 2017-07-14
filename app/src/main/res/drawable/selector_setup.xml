@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/ic_information2" />
+    <item android:state_window_focused="true" android:state_focused="true" android:drawable="@drawable/ic_information2" />
+    <item android:state_window_focused="false" android:state_focused="false" android:drawable="@drawable/ic_information" />
+</selector>
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- 当前窗口失去焦点时 -->
+<item android:drawable="@drawable/ic_setup3" android:state_window_focused="false" />
+<!-- 不可用时 -->
+<item android:drawable="@drawable/ic_setup3press" android:state_enabled="false" />
+<!-- 按压时 -->
+<item android:drawable="@drawable/ic_setup3press" android:state_pressed="true" />
+<!-- 被选中时 -->
+<item android:drawable="@drawable/ic_setup3press" android:state_selected="true" />
+<!-- 被激活时 -->
+<item android:drawable="@drawable/ic_setup3press" android:state_activated="true" />
+<!-- 默认时 -->
+<item android:drawable="@drawable/ic_setup3" />
+</selector>
